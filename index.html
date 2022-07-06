@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!-- Built by Xyrai | Inspired by Brittany Chiang -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Xyrai is a software engineer who specializes in developing & designing websites with state of the art digital experiences."
+    />
+    <meta name="theme-color" content="#F2C94C" />
+
+    <meta name="image" content="https://xyrai.dev/assets/seo.png" />
+    <meta property="og:title" content="Xyrai" />
+    <meta
+      property="og:description"
+      content="Xyrai is a software engineer who specializes in developing & designing websites with state of the art digital experiences."
+    />
+    <meta property="og:image" content="https://xyrai.dev/assets/seo.png" />
+    <meta property="og:url" content="https://xyrai.dev/" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@xyrai_" />
+    <meta name="twitter:title" content="Xyrai" />
+    <meta
+      name="twitter:description"
+      content="Xyrai is a software engineer who specializes in developing & designing websites with state of the art digital experiences."
+    />
+    <meta name="twitter:image" content="https://xyrai.dev/assets/seo.png" />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Xyrai</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
+        <label for="nav__checkbox" class="nav__toggle">
+          <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+            <path
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            />
+          </svg>
+          <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </label>
+        <ul class="nav__menu">
+          <li>
+            <a class="nav__menu--logo" href="/" aria-label="Home button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="42"
+                height="42"
+                viewBox="0 0 83 95"
+              >
+                <g id="logo" transform="translate(-8.5 -2.5)">
+                  <g
+                    id="logoTitle"
+                    data-name="logoTitle"
+                    transform="translate(11 5)"
+                  >
+                    <path
+                      id="Shape"
+                      d="M39,0,0,22V67L39,90,78,68V23Z"
+                      stroke="#f2c94c"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="5"
+                    />
+                    <path
+                      id="Text"
+                      data-name="Text"
+                      d="M12.715-18.633l5.332-9.8h6.738L16.5-14.336,25,0H18.184L12.715-9.961,7.246,0H.43l8.5-14.336L.645-28.437H7.383Z"
+                      stroke="#f2c94c"
+                      fill="#f2c94c"
+                      transform="translate(26.285 59.219)"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li class="button-list">
+            <a href="resume.pdf"><button>Resume</button></a>
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="landing">
+        <div class="landing-top__container">
+          <div>SOFTWARE ENGINEER</div>
+          <div>2022</div>
+        </div>
+        <div class="landing-main">
+          <h2>
+            <span class="landing-main__text-primary">PORTFOLIO</span>
+            <br />
+            <span class="landing-main__text-secondary"
+              >DEVELOPMENT<br />WORKS</span
+            >
+          </h2>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="section-main">
+          <h2 class="section-heading">About Me</h2>
+        </div>
+        <div class="about-inner">
+          <div class="about-inner__text">
+            <p>
+              Hey there! I enjoy creating digital experiences and sharing them
+              on the internet. My passion for development started at a young age
+              when I discovered online games and got interested in how they are
+              built.
+              <br /><br />
+              Fast-forward to today, I have had the privilege of working at
+              <a
+                href="https://legionesports.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >an eSports organization</a
+              >,
+              <a
+                href="https://bolster.academy/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >an EdTech company</a
+              >
+              and
+              <a
+                href="https://atos.net/en/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >a large corporation</a
+              >. My main focus these days is specializing in frontend
+              development at
+              <a
+                href="https://www.arlanet.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >a digital agency</a
+              >
+              and creating astonishing digital experiences in my spare time.<br /><br />
+              Recent technologies I have worked with:
+            </p>
+            <div class="about-inner__text--list">
+              <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>Node.js</li>
+                <li>Vue (Nuxt.js)</li>
+              </ul>
+              <ul>
+                <li>Python</li>
+                <li>C#</li>
+                <li>Umbraco/Optimizely</li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-inner__image">
+            <picture>
+              <source srcset="./assets/about_me.webp" type="image/webp" />
+              <source srcset="./assets/about_me.png" type="image/png" />
+              <img
+                src="./assets/about_me.png"
+                width="256"
+                height="256"
+                loading="lazy"
+                alt="Image of Xyrai"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="section-main">
+          <h2 class="section-heading">Projects</h2>
+        </div>
+        <div class="projects-container">
+          <div class="projects-inner">
+            <a
+              href="https://www.lostark.news/"
+              aria-label="Lost Ark News Link"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <source srcset="./assets/lostarknews.webp" type="image/webp" />
+                <source srcset="./assets/lostarknews.png" type="image/png" />
+                <img
+                  src="./assets/lostarknews.png"
+                  width="587"
+                  height="359"
+                  loading="lazy"
+                  alt="Lost Ark News"
+                />
+              </picture>
+            </a>
+            <div class="projects-inner__text">
+              <p class="projects-inner__text--type">Featured Project</p>
+              <h3>Lost Ark News</h3>
+              <div class="projects-inner__text--banner">
+                <p>
+                  A web app that delivers players of the MMOARPG: Lost Ark, with
+                  the latest news & trends of the game. Assisting the community
+                  by sharing the latest guides, tips & tricks provided by
+                  experienced players.
+                </p>
+              </div>
+              <div class="projects-inner__text--technologies">
+                <p>Nuxt.js</p>
+                <p>Bootstrap</p>
+                <p>SASS</p>
+                <p>Netlify</p>
+              </div>
+              <div class="projects-inner__text--links">
+                <a
+                  href="https://www.lostark.news/"
+                  aria-label="Lost Ark News Link"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    class="link-icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.6667 12.111V18.7777C17.6667 19.3671 17.4325 19.9323 17.0158 20.349C16.599 20.7658 16.0338 20.9999 15.4444 20.9999H3.22222C2.63285 20.9999 2.06762 20.7658 1.65087 20.349C1.23413 19.9323 1 19.3671 1 18.7777V6.55547C1 5.9661 1.23413 5.40087 1.65087 4.98413C2.06762 4.56738 2.63285 4.33325 3.22222 4.33325H9.88889"
+                      stroke="#FAFAFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.3333 1H21V7.66667"
+                      stroke="#FAFAFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.77777 13.2222L21 1"
+                      stroke="#FAFAFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-inner reverse">
+            <a
+              href="https://github.com/elainevoice"
+              aria-label="Elaine Voice GitHub Link"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <source srcset="./assets/elainevoice.webp" type="image/webp" />
+                <source srcset="./assets/elainevoice.png" type="image/png" />
+                <img
+                  src="./assets/elainevoice.webp"
+                  width="587"
+                  height="359"
+                  loading="lazy"
+                  alt="Elaine Voice"
+                />
+              </picture>
+            </a>
+            <div class="projects-inner__text reverse-text">
+              <p class="projects-inner__text--type">Featured Project</p>
+              <h3>Elaine Voice</h3>
+              <div class="projects-inner__text--banner reverse-text">
+                <p>
+                  An Artificial Intelligence based multilingual web app
+                  translator.<br />Make use of text/speech to speech technology
+                  to translate your sentences into languages you have never
+                  heard of before.
+                </p>
+              </div>
+              <div class="projects-inner__text--technologies justify-start">
+                <p>React</p>
+                <p>Python</p>
+                <p>Tacotron</p>
+                <p>Docker</p>
+              </div>
+              <div class="projects-inner__text--links justify-start">
+                <a
+                  href="https://github.com/elainevoice"
+                  aria-label="Elaine Voice GitHub Link"
+                  title="GitHub"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    class="github-icon"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.269 20C14.0033 20 13.7484 19.8946 13.5605 19.7069C13.3726 19.5192 13.2671 19.2646 13.2671 18.9991V16.3969C13.2982 16.0976 13.2661 15.795 13.1729 15.5089C13.0798 15.2227 12.9275 14.9592 12.726 14.7355C12.6013 14.6003 12.5162 14.4335 12.4802 14.2532C12.4441 14.073 12.4584 13.8863 12.5215 13.7136C12.5847 13.541 12.6942 13.389 12.8381 13.2744C12.982 13.1598 13.1546 13.0871 13.3372 13.064C15.7819 12.7738 18.0362 11.9931 18.0362 7.75948C18.037 6.96888 17.8034 6.19575 17.3649 5.53757C16.9603 4.93168 16.8126 4.19028 16.9541 3.4758C17.0444 3.00972 17.0444 2.53067 16.9541 2.06459C16.2039 2.31798 15.4975 2.68599 14.8601 3.15552C14.7396 3.24101 14.6017 3.29881 14.4562 3.32476C14.3106 3.35072 14.1612 3.34419 14.0185 3.30565C12.2104 2.79527 10.2961 2.79527 8.48794 3.30565C8.34525 3.34419 8.1958 3.35072 8.05029 3.32476C7.90479 3.29881 7.76684 3.24101 7.64633 3.15552C7.00503 2.68055 6.29116 2.31217 5.53228 2.06459C5.437 2.53018 5.437 3.01021 5.53228 3.4758C5.66362 4.19927 5.5092 4.94544 5.10146 5.55759C4.66488 6.22038 4.43157 6.99611 4.43017 7.78951C4.43017 11.6829 6.31378 12.7237 9.13918 13.0841C9.32406 13.107 9.49888 13.1809 9.64401 13.2976C9.78914 13.4143 9.89883 13.5691 9.96075 13.7446C10.019 13.9149 10.0302 14.0978 9.99318 14.2739C9.95615 14.4501 9.87226 14.613 9.75035 14.7455C9.55548 14.9536 9.4059 15.1997 9.31105 15.4685C9.21621 15.7372 9.17816 16.0227 9.1993 16.3068V18.9991C9.1993 19.2646 9.09374 19.5192 8.90584 19.7069C8.71795 19.8946 8.4631 20 8.19738 20C7.93165 20 7.67681 19.8946 7.48892 19.7069C7.30102 19.5192 7.19546 19.2646 7.19546 18.9991V18.4286C6.21094 18.5418 5.2137 18.41 4.29249 18.045C3.37128 17.6801 2.55468 17.0933 1.91536 16.3369C1.58674 15.973 1.19246 15.6742 0.753139 15.4561C0.625513 15.4232 0.505615 15.3656 0.400292 15.2864C0.294968 15.2073 0.206281 15.1082 0.139295 14.9948C0.0723084 14.8814 0.0283344 14.756 0.00988345 14.6256C-0.00856751 14.4953 -0.00113396 14.3625 0.0317594 14.235C0.0646528 14.1076 0.122362 13.9878 0.201592 13.8826C0.280822 13.7774 0.380021 13.6888 0.493526 13.6218C0.60703 13.5549 0.732618 13.511 0.863117 13.4926C0.993616 13.4741 1.12647 13.4816 1.2541 13.5144C2.02482 13.7949 2.71349 14.2627 3.25793 14.8756C4.25985 15.8765 5.26176 16.7572 7.1654 16.3969C7.13193 15.8595 7.2104 15.3211 7.39585 14.8155C5.3319 14.2951 2.38626 12.8138 2.38626 7.80952C2.38362 6.62414 2.73223 5.46448 3.38818 4.47666C3.51002 4.29431 3.55668 4.07201 3.51843 3.85613C3.31597 2.77577 3.4308 1.65997 3.84906 0.643366C3.90589 0.507814 3.99191 0.386427 4.101 0.287829C4.21009 0.189232 4.33958 0.115842 4.48027 0.0728754C4.82092 -0.0272106 6.04326 -0.227383 8.35769 1.27391C10.2312 0.823524 12.185 0.823524 14.0586 1.27391C16.373 -0.227383 17.5954 -0.0372192 17.926 0.0728754C18.0667 0.115842 18.1962 0.189232 18.3053 0.287829C18.4143 0.386427 18.5004 0.507814 18.5572 0.643366C18.9763 1.66328 19.0911 2.78251 18.8878 3.86614C18.8673 3.96377 18.8665 4.06451 18.8854 4.16246C18.9044 4.26042 18.9426 4.35362 18.998 4.43663C19.6559 5.42729 20.0046 6.5907 20 7.7795C20 12.8539 17.0744 14.3251 14.9904 14.7855C15.174 15.3226 15.2489 15.8907 15.2108 16.457V18.9991C15.2113 19.2545 15.114 19.5004 14.9389 19.6864C14.7638 19.8725 14.5242 19.9847 14.269 20Z"
+                      fill="#FAFAFF"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-inner">
+            <a
+              href="https://clerqbot.com/"
+              aria-label="Clerq Bot Link"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <picture>
+                <source srcset="./assets/clerq.webp" type="image/webp" />
+                <source srcset="./assets/clerq.png" type="image/png" />
+                <img
+                  src="./assets/clerq.webp"
+                  width="587"
+                  height="359"
+                  loading="lazy"
+                  alt="Clerq Bot"
+                />
+              </picture>
+            </a>
+            <div class="projects-inner__text">
+              <p class="projects-inner__text--type">Featured Project</p>
+              <h3>Clerq</h3>
+              <div class="projects-inner__text--banner">
+                <p>
+                  A Discord bot connected with a web app for supporting your
+                  daily tasks. Play games or listen to music with your friends
+                  and manage your server.<br />Create & view your appointments,
+                  reminders, playlists and more.
+                </p>
+              </div>
+              <div class="projects-inner__text--technologies">
+                <p>Angular</p>
+                <p>NestJS</p>
+                <p>Python</p>
+                <p>Discord API</p>
+              </div>
+              <div class="projects-inner__text--links">
+                <a
+                  href="https://clerqbot.com/"
+                  aria-label="Clerq Bot Link"
+                  title="External Link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    class="link-icon"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.6667 12.111V18.7777C17.6667 19.3671 17.4325 19.9323 17.0158 20.349C16.599 20.7658 16.0338 20.9999 15.4444 20.9999H3.22222C2.63285 20.9999 2.06762 20.7658 1.65087 20.349C1.23413 19.9323 1 19.3671 1 18.7777V6.55547C1 5.9661 1.23413 5.40087 1.65087 4.98413C2.06762 4.56738 2.63285 4.33325 3.22222 4.33325H9.88889"
+                      stroke="#FAFAFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.3333 1H21V7.66667"
+                      stroke="#FAFAFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.77777 13.2222L21 1"
+                      stroke="#FAFAFF"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact pseudo-hide">
+        <div class="section-main">
+          <h2 class="contact-heading">Contact</h2>
+        </div>
+        <div class="contact-inner">
+          <h3>Get In Touch</h3>
+          <p>
+            Although I’m currently employed at a digital agency, my inbox always
+            remains open. Whether you have a question or just want to say hi,
+            I’ll try my best to get back to you!
+          </p>
+          <a href="mailto:xyraidev@gmail.com">
+            <button>Say Hello</button>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-mobile">
+        <ul class="footer-icons">
+          <li>
+            <a
+              href="https://www.github.com/Xyrai"
+              aria-label="GitHub"
+              title="GitHub"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="footer-icons__github"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.269 20C14.0033 20 13.7484 19.8946 13.5605 19.7069C13.3726 19.5192 13.2671 19.2646 13.2671 18.9991V16.3969C13.2982 16.0976 13.2661 15.795 13.1729 15.5089C13.0798 15.2227 12.9275 14.9592 12.726 14.7355C12.6013 14.6003 12.5162 14.4335 12.4802 14.2532C12.4441 14.073 12.4584 13.8863 12.5215 13.7136C12.5847 13.541 12.6942 13.389 12.8381 13.2744C12.982 13.1598 13.1546 13.0871 13.3372 13.064C15.7819 12.7738 18.0362 11.9931 18.0362 7.75948C18.037 6.96888 17.8034 6.19575 17.3649 5.53757C16.9603 4.93168 16.8126 4.19028 16.9541 3.4758C17.0444 3.00972 17.0444 2.53067 16.9541 2.06459C16.2039 2.31798 15.4975 2.68599 14.8601 3.15552C14.7396 3.24101 14.6017 3.29881 14.4562 3.32476C14.3106 3.35072 14.1612 3.34419 14.0185 3.30565C12.2104 2.79527 10.2961 2.79527 8.48794 3.30565C8.34525 3.34419 8.1958 3.35072 8.05029 3.32476C7.90479 3.29881 7.76684 3.24101 7.64633 3.15552C7.00503 2.68055 6.29116 2.31217 5.53228 2.06459C5.437 2.53018 5.437 3.01021 5.53228 3.4758C5.66362 4.19927 5.5092 4.94544 5.10146 5.55759C4.66488 6.22038 4.43157 6.99611 4.43017 7.78951C4.43017 11.6829 6.31378 12.7237 9.13918 13.0841C9.32406 13.107 9.49888 13.1809 9.64401 13.2976C9.78914 13.4143 9.89883 13.5691 9.96075 13.7446C10.019 13.9149 10.0302 14.0978 9.99318 14.2739C9.95615 14.4501 9.87226 14.613 9.75035 14.7455C9.55548 14.9536 9.4059 15.1997 9.31105 15.4685C9.21621 15.7372 9.17816 16.0227 9.1993 16.3068V18.9991C9.1993 19.2646 9.09374 19.5192 8.90584 19.7069C8.71795 19.8946 8.4631 20 8.19738 20C7.93165 20 7.67681 19.8946 7.48892 19.7069C7.30102 19.5192 7.19546 19.2646 7.19546 18.9991V18.4286C6.21094 18.5418 5.2137 18.41 4.29249 18.045C3.37128 17.6801 2.55468 17.0933 1.91536 16.3369C1.58674 15.973 1.19246 15.6742 0.753139 15.4561C0.625513 15.4232 0.505615 15.3656 0.400292 15.2864C0.294968 15.2073 0.206281 15.1082 0.139295 14.9948C0.0723084 14.8814 0.0283344 14.756 0.00988345 14.6256C-0.00856751 14.4953 -0.00113396 14.3625 0.0317594 14.235C0.0646528 14.1076 0.122362 13.9878 0.201592 13.8826C0.280822 13.7774 0.380021 13.6888 0.493526 13.6218C0.60703 13.5549 0.732618 13.511 0.863117 13.4926C0.993616 13.4741 1.12647 13.4816 1.2541 13.5144C2.02482 13.7949 2.71349 14.2627 3.25793 14.8756C4.25985 15.8765 5.26176 16.7572 7.1654 16.3969C7.13193 15.8595 7.2104 15.3211 7.39585 14.8155C5.3319 14.2951 2.38626 12.8138 2.38626 7.80952C2.38362 6.62414 2.73223 5.46448 3.38818 4.47666C3.51002 4.29431 3.55668 4.07201 3.51843 3.85613C3.31597 2.77577 3.4308 1.65997 3.84906 0.643366C3.90589 0.507814 3.99191 0.386427 4.101 0.287829C4.21009 0.189232 4.33958 0.115842 4.48027 0.0728754C4.82092 -0.0272106 6.04326 -0.227383 8.35769 1.27391C10.2312 0.823524 12.185 0.823524 14.0586 1.27391C16.373 -0.227383 17.5954 -0.0372192 17.926 0.0728754C18.0667 0.115842 18.1962 0.189232 18.3053 0.287829C18.4143 0.386427 18.5004 0.507814 18.5572 0.643366C18.9763 1.66328 19.0911 2.78251 18.8878 3.86614C18.8673 3.96377 18.8665 4.06451 18.8854 4.16246C18.9044 4.26042 18.9426 4.35362 18.998 4.43663C19.6559 5.42729 20.0046 6.5907 20 7.7795C20 12.8539 17.0744 14.3251 14.9904 14.7855C15.174 15.3226 15.2489 15.8907 15.2108 16.457V18.9991C15.2113 19.2545 15.114 19.5004 14.9389 19.6864C14.7638 19.8725 14.5242 19.9847 14.269 20Z"
+                  fill="#FAFAFF"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/xyrai_"
+              aria-label="Twitter"
+              title="Twitter"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="footer-icons__twitter"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.11787 19.9892H6.02925C4.24412 19.9715 2.4848 19.5064 0.878672 18.6275C0.583233 18.471 0.339975 18.212 0.184511 17.8883C0.0290472 17.5646 -0.030459 17.1933 0.0147039 16.8287C0.0638221 16.4616 0.21451 16.1215 0.445255 15.8567C0.676 15.592 0.975005 15.4163 1.29958 15.3546C2.29493 15.2049 3.25247 14.8265 4.11302 14.2428C2.61897 12.9254 1.46878 11.1767 0.784322 9.18204C0.0998673 7.18735 -0.0933459 5.02098 0.225158 2.91251C0.268343 2.57854 0.395697 2.26559 0.592065 2.01091C0.788433 1.75622 1.04555 1.57053 1.33281 1.47592C1.61229 1.37693 1.91139 1.3727 2.19298 1.46376C2.47457 1.55481 2.72624 1.73714 2.91675 1.9881C3.56362 2.94472 4.37652 3.74268 5.30585 4.33331C6.23519 4.92394 7.26147 5.29485 8.32209 5.42342C8.37276 3.95167 8.93356 2.56113 9.88388 1.55087C10.3584 1.03842 10.9186 0.637592 11.5319 0.371756C12.1451 0.105921 12.7991 -0.0196084 13.4558 0.00248243C14.1125 0.0245732 14.7588 0.193843 15.3569 0.500427C15.955 0.807012 16.493 1.24478 16.9396 1.78822C17.056 1.90423 17.2005 1.97817 17.3546 2.00044C17.5086 2.02271 17.6651 1.9923 17.8036 1.91314C18.0677 1.77267 18.3618 1.71978 18.6515 1.76067C18.9413 1.80156 19.2147 1.93452 19.44 2.14405C19.6652 2.35359 19.833 2.63105 19.9238 2.94406C20.0145 3.25707 20.0245 3.59273 19.9524 3.91188C19.697 5.09877 19.2129 6.20766 18.5346 7.15981C18.3852 10.7135 16.996 14.0564 14.67 16.4597C12.344 18.8629 9.26987 20.1317 6.11787 19.9892ZM6.11787 17.4908H6.20648C7.49431 17.5407 8.77813 17.3019 9.98349 16.788C11.1889 16.2742 12.2918 15.4957 13.2284 14.4975C14.1649 13.4994 14.9165 12.3015 15.4395 10.9733C15.9625 9.64506 16.2465 8.21299 16.275 6.76007C16.2933 6.36189 16.4389 5.98466 16.6849 5.69824C16.955 5.31254 17.1854 4.89345 17.3716 4.44903C16.9726 4.44989 16.5779 4.35575 16.2133 4.17278C15.8488 3.98981 15.5225 3.72212 15.256 3.38721C14.9997 3.10058 14.6952 2.8745 14.3605 2.72221C14.0258 2.56991 13.6674 2.49446 13.3065 2.50027C12.942 2.48964 12.5792 2.56031 12.239 2.70823C11.8987 2.85615 11.5877 3.0784 11.3238 3.36222C10.9678 3.74323 10.7068 4.22301 10.5668 4.75355C10.4268 5.28408 10.4129 5.84677 10.5263 6.38531L10.8143 7.8094L9.51836 7.90934C8.19039 8.03147 6.85475 7.8266 5.60393 7.30892C4.35312 6.79124 3.21702 5.97313 2.27431 4.91124C2.23388 6.55569 2.59864 8.18057 3.32802 9.60523C4.0574 11.0299 5.12283 12.1985 6.40586 12.9811L7.45813 13.6557L6.7603 14.78C6.00565 15.8962 4.97165 16.7316 3.7918 17.1785C4.54867 17.3924 5.32653 17.4973 6.10679 17.4908H6.11787Z"
+                  fill="#FAFAFF"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/xyraii/"
+              aria-label="Instagram"
+              title="Instagram"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="footer-icons__instagram"
+                width="20"
+                height="20"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 1H6C3.23858 1 1 3.23858 1 6V16C1 18.7614 3.23858 21 6 21H16C18.7614 21 21 18.7614 21 16V6C21 3.23858 18.7614 1 16 1Z"
+                  stroke="#FAFAFF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15 10.37C15.1234 11.2022 14.9813 12.0522 14.5938 12.799C14.2063 13.5458 13.5932 14.1514 12.8416 14.5297C12.0901 14.9079 11.2385 15.0396 10.4078 14.9059C9.57714 14.7723 8.80977 14.3801 8.21485 13.7852C7.61993 13.1902 7.22774 12.4229 7.09408 11.5922C6.96042 10.7615 7.09208 9.90989 7.47034 9.15837C7.8486 8.40685 8.4542 7.79374 9.201 7.40624C9.9478 7.01874 10.7978 6.87658 11.63 7C12.4789 7.12588 13.2649 7.52146 13.8717 8.1283C14.4785 8.73515 14.8741 9.52107 15 10.37Z"
+                  stroke="#FAFAFF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16.5 5.5H16.51"
+                  stroke="#FAFAFF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-desktop">
+        <div class="left">
+          <ul class="footer-icons">
+            <li>
+              <a
+                href="https://www.github.com/Xyrai"
+                aria-label="GitHub"
+                title="GitHub"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="footer-icons__github"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.269 20C14.0033 20 13.7484 19.8946 13.5605 19.7069C13.3726 19.5192 13.2671 19.2646 13.2671 18.9991V16.3969C13.2982 16.0976 13.2661 15.795 13.1729 15.5089C13.0798 15.2227 12.9275 14.9592 12.726 14.7355C12.6013 14.6003 12.5162 14.4335 12.4802 14.2532C12.4441 14.073 12.4584 13.8863 12.5215 13.7136C12.5847 13.541 12.6942 13.389 12.8381 13.2744C12.982 13.1598 13.1546 13.0871 13.3372 13.064C15.7819 12.7738 18.0362 11.9931 18.0362 7.75948C18.037 6.96888 17.8034 6.19575 17.3649 5.53757C16.9603 4.93168 16.8126 4.19028 16.9541 3.4758C17.0444 3.00972 17.0444 2.53067 16.9541 2.06459C16.2039 2.31798 15.4975 2.68599 14.8601 3.15552C14.7396 3.24101 14.6017 3.29881 14.4562 3.32476C14.3106 3.35072 14.1612 3.34419 14.0185 3.30565C12.2104 2.79527 10.2961 2.79527 8.48794 3.30565C8.34525 3.34419 8.1958 3.35072 8.05029 3.32476C7.90479 3.29881 7.76684 3.24101 7.64633 3.15552C7.00503 2.68055 6.29116 2.31217 5.53228 2.06459C5.437 2.53018 5.437 3.01021 5.53228 3.4758C5.66362 4.19927 5.5092 4.94544 5.10146 5.55759C4.66488 6.22038 4.43157 6.99611 4.43017 7.78951C4.43017 11.6829 6.31378 12.7237 9.13918 13.0841C9.32406 13.107 9.49888 13.1809 9.64401 13.2976C9.78914 13.4143 9.89883 13.5691 9.96075 13.7446C10.019 13.9149 10.0302 14.0978 9.99318 14.2739C9.95615 14.4501 9.87226 14.613 9.75035 14.7455C9.55548 14.9536 9.4059 15.1997 9.31105 15.4685C9.21621 15.7372 9.17816 16.0227 9.1993 16.3068V18.9991C9.1993 19.2646 9.09374 19.5192 8.90584 19.7069C8.71795 19.8946 8.4631 20 8.19738 20C7.93165 20 7.67681 19.8946 7.48892 19.7069C7.30102 19.5192 7.19546 19.2646 7.19546 18.9991V18.4286C6.21094 18.5418 5.2137 18.41 4.29249 18.045C3.37128 17.6801 2.55468 17.0933 1.91536 16.3369C1.58674 15.973 1.19246 15.6742 0.753139 15.4561C0.625513 15.4232 0.505615 15.3656 0.400292 15.2864C0.294968 15.2073 0.206281 15.1082 0.139295 14.9948C0.0723084 14.8814 0.0283344 14.756 0.00988345 14.6256C-0.00856751 14.4953 -0.00113396 14.3625 0.0317594 14.235C0.0646528 14.1076 0.122362 13.9878 0.201592 13.8826C0.280822 13.7774 0.380021 13.6888 0.493526 13.6218C0.60703 13.5549 0.732618 13.511 0.863117 13.4926C0.993616 13.4741 1.12647 13.4816 1.2541 13.5144C2.02482 13.7949 2.71349 14.2627 3.25793 14.8756C4.25985 15.8765 5.26176 16.7572 7.1654 16.3969C7.13193 15.8595 7.2104 15.3211 7.39585 14.8155C5.3319 14.2951 2.38626 12.8138 2.38626 7.80952C2.38362 6.62414 2.73223 5.46448 3.38818 4.47666C3.51002 4.29431 3.55668 4.07201 3.51843 3.85613C3.31597 2.77577 3.4308 1.65997 3.84906 0.643366C3.90589 0.507814 3.99191 0.386427 4.101 0.287829C4.21009 0.189232 4.33958 0.115842 4.48027 0.0728754C4.82092 -0.0272106 6.04326 -0.227383 8.35769 1.27391C10.2312 0.823524 12.185 0.823524 14.0586 1.27391C16.373 -0.227383 17.5954 -0.0372192 17.926 0.0728754C18.0667 0.115842 18.1962 0.189232 18.3053 0.287829C18.4143 0.386427 18.5004 0.507814 18.5572 0.643366C18.9763 1.66328 19.0911 2.78251 18.8878 3.86614C18.8673 3.96377 18.8665 4.06451 18.8854 4.16246C18.9044 4.26042 18.9426 4.35362 18.998 4.43663C19.6559 5.42729 20.0046 6.5907 20 7.7795C20 12.8539 17.0744 14.3251 14.9904 14.7855C15.174 15.3226 15.2489 15.8907 15.2108 16.457V18.9991C15.2113 19.2545 15.114 19.5004 14.9389 19.6864C14.7638 19.8725 14.5242 19.9847 14.269 20Z"
+                    fill="#FAFAFF"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com/xyrai_"
+                aria-label="Twitter"
+                title="Twitter"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="footer-icons__twitter"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.11787 19.9892H6.02925C4.24412 19.9715 2.4848 19.5064 0.878672 18.6275C0.583233 18.471 0.339975 18.212 0.184511 17.8883C0.0290472 17.5646 -0.030459 17.1933 0.0147039 16.8287C0.0638221 16.4616 0.21451 16.1215 0.445255 15.8567C0.676 15.592 0.975005 15.4163 1.29958 15.3546C2.29493 15.2049 3.25247 14.8265 4.11302 14.2428C2.61897 12.9254 1.46878 11.1767 0.784322 9.18204C0.0998673 7.18735 -0.0933459 5.02098 0.225158 2.91251C0.268343 2.57854 0.395697 2.26559 0.592065 2.01091C0.788433 1.75622 1.04555 1.57053 1.33281 1.47592C1.61229 1.37693 1.91139 1.3727 2.19298 1.46376C2.47457 1.55481 2.72624 1.73714 2.91675 1.9881C3.56362 2.94472 4.37652 3.74268 5.30585 4.33331C6.23519 4.92394 7.26147 5.29485 8.32209 5.42342C8.37276 3.95167 8.93356 2.56113 9.88388 1.55087C10.3584 1.03842 10.9186 0.637592 11.5319 0.371756C12.1451 0.105921 12.7991 -0.0196084 13.4558 0.00248243C14.1125 0.0245732 14.7588 0.193843 15.3569 0.500427C15.955 0.807012 16.493 1.24478 16.9396 1.78822C17.056 1.90423 17.2005 1.97817 17.3546 2.00044C17.5086 2.02271 17.6651 1.9923 17.8036 1.91314C18.0677 1.77267 18.3618 1.71978 18.6515 1.76067C18.9413 1.80156 19.2147 1.93452 19.44 2.14405C19.6652 2.35359 19.833 2.63105 19.9238 2.94406C20.0145 3.25707 20.0245 3.59273 19.9524 3.91188C19.697 5.09877 19.2129 6.20766 18.5346 7.15981C18.3852 10.7135 16.996 14.0564 14.67 16.4597C12.344 18.8629 9.26987 20.1317 6.11787 19.9892ZM6.11787 17.4908H6.20648C7.49431 17.5407 8.77813 17.3019 9.98349 16.788C11.1889 16.2742 12.2918 15.4957 13.2284 14.4975C14.1649 13.4994 14.9165 12.3015 15.4395 10.9733C15.9625 9.64506 16.2465 8.21299 16.275 6.76007C16.2933 6.36189 16.4389 5.98466 16.6849 5.69824C16.955 5.31254 17.1854 4.89345 17.3716 4.44903C16.9726 4.44989 16.5779 4.35575 16.2133 4.17278C15.8488 3.98981 15.5225 3.72212 15.256 3.38721C14.9997 3.10058 14.6952 2.8745 14.3605 2.72221C14.0258 2.56991 13.6674 2.49446 13.3065 2.50027C12.942 2.48964 12.5792 2.56031 12.239 2.70823C11.8987 2.85615 11.5877 3.0784 11.3238 3.36222C10.9678 3.74323 10.7068 4.22301 10.5668 4.75355C10.4268 5.28408 10.4129 5.84677 10.5263 6.38531L10.8143 7.8094L9.51836 7.90934C8.19039 8.03147 6.85475 7.8266 5.60393 7.30892C4.35312 6.79124 3.21702 5.97313 2.27431 4.91124C2.23388 6.55569 2.59864 8.18057 3.32802 9.60523C4.0574 11.0299 5.12283 12.1985 6.40586 12.9811L7.45813 13.6557L6.7603 14.78C6.00565 15.8962 4.97165 16.7316 3.7918 17.1785C4.54867 17.3924 5.32653 17.4973 6.10679 17.4908H6.11787Z"
+                    fill="#FAFAFF"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/xyraii/"
+                aria-label="Instagram"
+                title="Instagram"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="footer-icons__instagram"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 1H6C3.23858 1 1 3.23858 1 6V16C1 18.7614 3.23858 21 6 21H16C18.7614 21 21 18.7614 21 16V6C21 3.23858 18.7614 1 16 1Z"
+                    stroke="#FAFAFF"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 10.37C15.1234 11.2022 14.9813 12.0522 14.5938 12.799C14.2063 13.5458 13.5932 14.1514 12.8416 14.5297C12.0901 14.9079 11.2385 15.0396 10.4078 14.9059C9.57714 14.7723 8.80977 14.3801 8.21485 13.7852C7.61993 13.1902 7.22774 12.4229 7.09408 11.5922C6.96042 10.7615 7.09208 9.90989 7.47034 9.15837C7.8486 8.40685 8.4542 7.79374 9.201 7.40624C9.9478 7.01874 10.7978 6.87658 11.63 7C12.4789 7.12588 13.2649 7.52146 13.8717 8.1283C14.4785 8.73515 14.8741 9.52107 15 10.37Z"
+                    stroke="#FAFAFF"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16.5 5.5H16.51"
+                    stroke="#FAFAFF"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="right">
+          <a href="mailto:xyraidev@gmail.com">xyraidev@gmail.com</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
